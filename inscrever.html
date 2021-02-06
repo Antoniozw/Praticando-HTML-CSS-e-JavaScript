@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se | ProCode</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="pesquisa">
+            <input type="search" class="pesquisar-campo">
+            <button class="buscar-botao">Buscar</button>
+        </div>
+        <nav class="area-navegacao">
+            <ul class="navegacao">
+                <li class="paginas"><a href="index.html">Home</a></li>
+                <li class="paginas"><a href="planos.html">Planos</a></li>
+                <li class="paginas"><a href="cursos.html">Cursos</a></li>
+                <li class="paginas"><a href="inscrever.html">Inscreva-se</a></li>
+            </ul>
+            <button class="pesquisar-botao">Pesquisar</button>
+            <button class="pesquisar-botao" id="fechar-botao">Fechar</button>
+            <h1 class="logo">ProCode</h1>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <div class="info">
+                <div>
+                    <input class="inscrever-campos" type="text" placeholder="Nome" required><br>
+                </div>
+                <input class="inscrever-campos" type="text" placeholder="Sobrenome" required><br>
+                <input class="inscrever-campos" type="email" placeholder="email@seudominio.com" required><br>
+                <input class="inscrever-campos" type="password" placeholder="Senha" required minlength="8"><br>
+                <input class="inscrever" type="submit" value="Inscrever-se">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p class="logo-footer">ProCode</p>
+        <p>Criei este site para praticar. Ele é como um site de cursos.</p>
+        <p style="background-color: rgb(22, 21, 21); font-weight: bold;">&copy; Copyright Cursos ProCode | Criado por:
+            Antônio Carlos</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
