@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    /* Adaptação Responsiva: Menu */
+
+    .pesquisar-campo {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .paginas {
+        position: relative;
+        left: auto;
+        margin: 10px 10px 10px 20px;
+    }
+  
+    .logo {
+        position: relative;
+        text-align: left;
+        font-size: 25pt;
+        bottom: 45px;
+    }
+
+    .pesquisar-botao {
+        width: 20%;
+        height: 25px;
+        margin: 0 0 0 10px;
+    }
+
+    /* Adaptação Responsiva: Planos */
+
+    
+}
