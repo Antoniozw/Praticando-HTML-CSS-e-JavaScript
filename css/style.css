@@ -1,0 +1,353 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* Menu */
+
+.pesquisa {
+    background-color: rgb(22, 21, 21);
+    color: #ffffff;
+    height: 0px;
+    transition: 1s;
+}
+
+.pesquisar-campo {
+    background-color: black;
+    font-size: 20pt;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 500px;
+    height: 0px;
+    margin-top: 0px;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.buscar-botao {
+    background-color: white;
+    color: black;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.buscar-botao:hover {
+    transform: scale(1.2);
+}
+
+.pesquisar-botao {
+    background-color: black;
+    position: relative;
+    left: 52%;
+    top: 60px;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15pt;
+    margin: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+
+.pesquisar-botao:hover {
+    background-color: rgb(29, 27, 29);
+    transform: scale(1.2);
+}
+
+.area-navegacao {
+    background: aliceblue;
+    color: white;
+    border-bottom: 2px solid gray;
+}
+
+.menu {
+    width: 20%;
+    height: 50px;
+    font-size: 200px;
+}
+
+.img-menu {
+    position: relative;
+    right: 300px;
+    width: 3%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.navegacao {
+    display: flex;
+    color: white;
+}
+
+.paginas {
+    position: relative;
+    top: 50px;
+    left: 45%;
+    margin-left: 60px;
+    text-decoration: none;
+    /*
+    margin-top: 50px;
+    margin-bottom: 50px;
+    */
+}
+
+.paginas a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.paginas a:hover {
+    color: black;
+    text-decoration: underline;
+    outline: black;
+}
+
+.paginas a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+.logo {
+    color: #333333;
+    margin: 0 0 0 50px;
+    font-size: 50pt;
+    font-weight: bold;
+  /* margin-left: 70%; */
+}
+
+/* Página Home */
+
+
+/* Página Planos */
+
+.planos {
+    text-align: center;
+}
+
+.plano-premium {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 25%;
+    height: 450px;
+    margin: 50px 20px 50px 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px black;
+}
+
+.plano-premium-titulo {
+    color: #333333;
+    position: relative; 
+    font-size: 30pt; 
+    top: 20px; 
+    font-weight: bold;
+}
+
+.preço-premium {
+    position: relative;
+    font-size: 25pt;
+    top: 50px;
+}
+
+.plano-max {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 25%;
+    height: 450px;
+    margin: 50px 20px 50px 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px black;
+    border-top: 10px solid aqua;
+}
+
+.plano-max-titulo {
+    color: #333333;
+    position: relative; 
+    font-size: 30pt; 
+    top: 20px; 
+    font-weight: bold;
+}
+
+.preço-max {
+    position: relative;
+    font-size: 25pt;
+    top: 50px;
+}
+
+
+.plano-premium-max {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 25%;
+    height: 450px;
+    margin: 50px 20px 50px 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px black;
+}
+
+.plano-premium-max-titulo {
+    color: #333333;
+    position: relative; 
+    font-size: 30pt; 
+    top: 20px; 
+    font-weight: bold;
+}
+
+.preço-premium-max {
+    position: relative;
+    font-size: 25pt;
+    top: 50px;
+}
+
+.plano-v-d {
+  position: relative;
+  top: 100px;
+  align-items: center;
+  margin-top: 5px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.plano-comprar {
+    position: relative;
+    background-color: aqua;
+    color: white;
+    top: 130px;
+    width: 60%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20pt;
+    font-weight: bold;
+    transition: 0.5ms;
+}
+
+.plano-comprar:hover {
+    transform: scale(1.2);
+}
+
+.plano-comprar:active {
+    background-color: rgb(28, 209, 209);
+}
+
+/* Página Cursos */
+
+.cursos {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.conteudo-cursos {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 15px black;
+    transition: 0.2s;
+}
+
+.conteudo-cursos:hover{
+    transform: scale(1.2);
+}
+
+.cursos-linguagem {
+    font-weight: bold;
+    margin: 40px 0 5px 0;
+    cursor: default;
+}
+
+.cursos-começar {
+    background-color: aqua;
+    color: white;
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cursos-começar:active {
+    transform: scale(1.2);
+}
+
+/* Página Inscreva-se */
+
+.info {
+    text-align: center;
+}
+
+.inscrever-campos {
+    width: 300px;
+    height: 50px;
+    font-size: 20pt;
+    margin: 50px 0 0 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inscrever {
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    animation-name: aumentarTamanho;
+    animation-duration: 1s;
+}
+
+@keyframes aumentarTamanho {
+    from {
+      width: 60px;
+    }
+  
+    to {
+      width: 200px;
+    }
+}
+
+.inscrever:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+
+.footer-top {
+    background-color: aliceblue;
+    color: #333;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.logo-footer {
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 50px;
+    margin: 0 0 30px 0;
+}
